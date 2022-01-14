@@ -11,7 +11,7 @@ rap.min.css" rel="stylesheet">
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootst
 rap.bundle.min.js"></script>
 
-<!--Baggrundsbilled og det bliver centreret-->
+<!--Baggrundsbillede og det bliver centreret-->
 <style>
   body{
     background-image: url("Images/Wanaka.jpg");
@@ -45,7 +45,7 @@ rap.bundle.min.js"></script>
           <a class="nav-link" href="#Erfaring">Erfaring</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#Kompetancer">Kompetancer</a>
+          <a class="nav-link" href="#Kompetencer">Kompetencer</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#Fritid">Fritid</a>
@@ -63,14 +63,14 @@ rap.bundle.min.js"></script>
 
 <!--Et billed. Det bruger stylen Center, det har en alternativ tekst og en ramme samt en fastsat størrelse-->
 <div class="center">
-<img src="Images/Selfie.jpg" alt="Selfie i Wanaka New Zealand" class="img-thumbnail" style="width:375px;height:500px;">
+<img src="Images/Selfie.jpg" alt="Selfie i Wanaka New Zealand" class="img-thumbnail" style="width:375px;height:500px;box-shadow: 0 0 30px;">
 </div>
 
 <!--Første skriftlige element. id skaber det link som Navbar'en skal bruge. Elementet er en bootstrap card, og bliver centret, og teksten bliver centreret i kortet.-->
 <section id="Resumé">
   <div class="center">
-  <div class="card text-center" style="width: 30rem;">
-    <div class="card-body">
+  <div class="card text-center" style="width: 29rem;">
+    <div class="card-body" style="box-shadow: 0 0 25px;">
       <!--overskrift efterfulgt af brødtekst-->
       <h5 class="card-title">Resumé</h5>
       <p>Jeg har haft en interesse for computere siden jeg var barn. Det startede primært med bare at spille spil, men senere begyndte jeg også at blive Tech-support 
@@ -86,8 +86,8 @@ rap.bundle.min.js"></script>
   <!--Card bliver centreret og for en title-->
   <section id="Erfaring">
     <div class="center">
-    <div class="card text-center" style="width: 30rem;">
-      <div class="card-body">
+    <div class="card text-center" style="width: 29rem;">
+      <div class="card-body"style="box-shadow: 0 0 25px;">
         <h5 class="card-title">Erfaring</h5>
 
         <!--herefter er der flere row som består af 2 koloner med lidt tekst. I det her tilfælde titler på de 2 koloner, men længere ned er det indholdet-->
@@ -98,6 +98,7 @@ rap.bundle.min.js"></script>
           <div class="col">
             <h6>Periode</h6>
           </div>
+        </div>
 
           <!--samme som overenstående, men nu med indhold-->
         <div class="row">
@@ -125,63 +126,64 @@ rap.bundle.min.js"></script>
           <div class="col">
             <p>Jun 2020 - Dec 2020</p>
           </div>
-      </div>
+        </div>
 
-      <div class="row">
-        <div class="col">
-          <p>Elektriker Intego</p>
+        <div class="row">
+          <div class="col">
+            <p>Elektriker Intego</p>
+          </div>
+          <div class="col">
+            <p>Jul 2019 - sep 2019</p>
+          </div>
         </div>
-        <div class="col">
-          <p>Jul 2019 - sep 2019</p>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <p>Elektriker lærling Intego/Fini-el</p>
+        <div class="row">
+          <div class="col">
+            <p>Elektriker lærling Intego/Fini-el</p>
+          </div>
+          <div class="col">
+            <p>Jan 2016 - Jul 2019</p>
+          </div>
         </div>
-        <div class="col">
-          <p>Jan 2016 - Jul 2019</p>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <p>Elektriker Grundforløb</p>
+        <div class="row">
+          <div class="col">
+            <p>Elektriker Grundforløb</p>
+          </div>
+          <div class="col">
+            <p>Aug 2015 - Dec 2015</p>
+          </div>
         </div>
-        <div class="col">
-          <p>Aug 2015 - Dec 2015</p>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <p>HTX 1.G</p>
+        <div class="row">
+          <div class="col">
+            <p>HTX 1.G</p>
+          </div>
+          <div class="col">
+            <p>2014 - 2015</p>
+          </div>
         </div>
-        <div class="col">
-          <p>2014 - 2015</p>
-        </div>
-      </div>
 
-      <div class="row">
-        <div class="col">
-          <p>10. Klasse</p>
+        <div class="row">
+          <div class="col">
+            <p>10. Klasse</p>
+          </div>
+          <div class="col">
+            <p>2013 - 2014</p>
+          </div>
         </div>
-        <div class="col">
-          <p>2013 - 2014</p>
-        </div>
-      </div>
 
+    </div>
     </div>
     </div>
     </section>
 
     <!--meget lig de ovenstående, der er en title og nogle undertitler efterfulgt af information i de givende kategorier-->
-    <section id="Kompetancer">
+    <section id="Kompetencer">
       <div class="center">
-      <div class="card text-center" style="width: 30rem;">
-        <div class="card-body">
-          <h5 class="card-title">Kompetancer</h5>
+      <div class="card text-center" style="width: 29rem;">
+        <div class="card-body" style="box-shadow: 0 0 25px;">
+          <h5 class="card-title">Kompetencer</h5>
           <h6>Sprog</h6>
           <p>Dansk: Modersmål</p>
           <p>Engelsk: Udemærket</p>
@@ -197,8 +199,8 @@ rap.bundle.min.js"></script>
       <!--ligesom Resumé-->
     <section id="Fritid">
       <div class="center">
-      <div class="card text-center" style="width: 30rem;">
-        <div class="card-body">
+      <div class="card text-center" style="width: 29rem;">
+        <div class="card-body" style="box-shadow: 0 0 25px;">
           <h5 class="card-title">Fritid</h5>
           <p>Jeg bruger meget af min fritid foran en computer, hvor jeg godt kan lide at være kreativ i forskellige spil. Jeg læser gerne bøger, primært fantasy eller sci-fi, 
             hvor jeg sagtens kan bruge flere timer om dagen, hvis det er en god bog. Jeg mødes også gerne med vennerne for at spille rollespil og brætspil. 
@@ -211,8 +213,8 @@ rap.bundle.min.js"></script>
       <!--ligesom de andre med title og nogle paragrafer med infomation-->
 <section id="Kontakt">
 <div class="center">
-<div class="card text-center" style="width: 30rem;">
-  <div class="card-body">
+<div class="card text-center" style="width: 29rem;">
+  <div class="card-body" style="box-shadow: 0 0 25px;">
     <h5 class="card-title">Kontakt</h5>
     <p>Mads Theis Nielsen</p>
     <p>Mobil: 31 69 14 77</p>
