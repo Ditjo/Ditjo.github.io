@@ -60,6 +60,11 @@
     .sidenav a {font-size: 18px;}
   }
 
+
+  .LA_IMG{
+    margin: 30px;
+  }
+
   /*Page Layout*/
 
   @media screen and (min-width: 800px){
