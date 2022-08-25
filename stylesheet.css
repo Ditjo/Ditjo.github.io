@@ -63,6 +63,7 @@
     margin-left: 50px;
   }
   
+  /*Navbar size change*/
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
@@ -75,6 +76,7 @@
 
   /*General Page Layout*/
 
+  /*For when the screen is big enough*/
   @media screen and (min-width: 1000px){
     .grid-container {
       display: grid;
@@ -93,6 +95,7 @@
 
 
   }
+  /*For when the screen is smaller. Mobil first.*/
   .grid-container {
     display: grid;
     animation: transitionIn 0.75s;
@@ -111,7 +114,7 @@
     width: 50%; 
     background-color: rgba(255, 255, 255, 0.5);
   }
-
+  /*Textbox & image transition*/
   @keyframes transitionIn {
     from{
       opacity: 0;
@@ -123,7 +126,7 @@
     }
   }
 
-  /*Projects*/
+  /*Projects links*/
 
   .project_button a{
     max-width: 200px;
@@ -138,10 +141,7 @@
     font-size: 30px;
   }
 
-
-
-
-  /* Table style*/
+  /* Skills Table style*/
 
   .button{
     border: none;
