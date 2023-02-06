@@ -1,0 +1,196 @@
+  body {
+    font-family: "Lato", sans-serif;
+    font-size: 30px;
+    margin: 0;
+    background-image: url("Images/Wanaka.jpg");
+    background-color: antiquewhite;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  p{
+    font-size: 20px;
+  }
+  /*Menu Layout*/
+.menubutton {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    padding: 30px;
+    
+}
+
+.bar {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /*Navbar size change*/
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+  .LA_IMG{
+    margin: 30px;
+  }
+
+  /*General Page Layout*/
+
+  /*For when the screen is big enough*/
+  @media screen and (min-width: 1000px){
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      padding: 30px;
+      margin: 30px;
+      justify-content: center;
+      
+    }
+    .grid-item {
+      margin: grid;
+      padding: 50px;
+      min-width: 400px;
+      
+    }
+
+
+  }
+  /*For when the screen is smaller. Mobil first.*/
+  .grid-container {
+    display: grid;
+    animation: transitionIn 0.75s;
+  }
+  .grid-item {
+    margin:auto;
+    width: 50%;
+    padding: 50px;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    
+  }
+  .grid-item-color{
+    max-width: 400px;
+    width: 50%; 
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  /*Textbox & image transition*/
+  @keyframes transitionIn {
+    from{
+      opacity: 0;
+      transform: rotateX(-10deg);
+    }
+    to{
+      opacity: 1;
+      transform: rotateX(0);
+    }
+  }
+
+  /*Projects links*/
+
+  .project_button a{
+    max-width: 200px;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #424242;
+    transition: 0.3s;
+  }
+  .project_button a:hover{
+    color: #111;
+    font-size: 30px;
+  }
+
+  /* Skills Table style*/
+
+  .button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    display:inline-block;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    
+  }
+  .buttonhover:hover{
+    background-color: rgb(209, 209, 209);
+  }
+
+  table{
+    border-collapse: collapse;
+  }
+  .row{
+    border-bottom: 1px solid black;
+  }
+  th, td{
+    width: 50%;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .col{
+    padding: 10px;
+    width: 200px;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+  h5{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  /*Footer*/
+
+  .footer{
+    background-color: rgb(48, 48, 48);
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+  }
